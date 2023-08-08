@@ -3,7 +3,7 @@ import {useState, useEffect} from "react";
 import MovieCard from "./MovieCard";
 import './App.css';
 import SearchIcon from './search.svg';
-const API_URL = "http://www.omdbapi.com?apikey=6f3c6044"
+const API_URL = "https://www.omdbapi.com?apikey=6f3c6044"
 
 // const movie1 = {
 //     "Title": 'Miles Morales Ultimate Spiderman',
