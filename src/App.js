@@ -5,13 +5,13 @@ import './App.css';
 import SearchIcon from './search.svg';
 const API_URL = "http://www.omdbapi.com?apikey=6f3c6044"
 
-const movie1 = {
-    "Title": 'Miles Morales Ultimate Spiderman',
-    "Year": '2021', 
-    "imdbID": 'tt14311386', 
-    "Type": 'movie', 
-    "Poster": 'N/A'
-}
+// const movie1 = {
+//     "Title": 'Miles Morales Ultimate Spiderman',
+//     "Year": '2021', 
+//     "imdbID": 'tt14311386', 
+//     "Type": 'movie', 
+//     "Poster": 'N/A'
+// }
 
 const App = () => {
     const [movies, setMovies] = useState([]);
